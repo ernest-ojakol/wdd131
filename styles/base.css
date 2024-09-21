@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #b26fba;
+    background-color: #56125e;
     text-align: center;
     color: #ffffff;
 }
@@ -55,11 +55,10 @@ main {
     color: white;
     padding: 15px;
     text-align: center;
-    /* border-radius: 10px 10px 0 0; */
 }
 
 footer {
-    background-color: #91538c;
+    background-color: #360e33;
     padding: 20px;
     text-align: center;
     color: #ffffff;
@@ -72,7 +71,7 @@ footer img {
 }
 
 nav {
-    background-color: #7e4faa;
+    background-color: #eedffc;
     padding: 1em;
     text-align: center;
     border-radius: 10px;
@@ -81,14 +80,14 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #dbc6c6;
+    color: #000000;
     margin: 0 20px;
     transition: color 0.2s ease;
 }
 
 nav a:hover {
-    color: #b9cfe6;
-    background-color: rgb(255, 255, 255);
+    color: #43494f;
+    border-top: 2px solid #333;
 }
 
 nav a.active {
@@ -149,7 +148,6 @@ img {
     color: white;
     padding: 15px;
     text-align: center;
-    /* border-radius: 10px 10px 0 0; */
 }
 
 main {
