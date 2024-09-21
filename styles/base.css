@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', serif;
+    background-color: #f9f9f9;
+    color: #6a4141;
+}
+
+header {
+    background-color: #b26fba;
+    text-align: center;
+    color: #ffffff;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    grid-column: auto;
+    background-color: #f3e9f2;
+    padding: 2px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* align-items: center; */
+}
+
+.card p {
+    grid-column: 1;
+    padding-top: 30px;
+}
+
+.card img {
+    grid-column: 2;
+    width: 100%;
+    height: 200px;
+    /* object-fit: cover; */
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #6f0062;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    /* border-radius: 10px 10px 0 0; */
+}
+
+footer {
+    background-color: #91538c;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+footer img {
+    height: 15px;
+    background-color: #8B0000;
+}
+
+nav {
+    background-color: #7e4faa;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #dbc6c6;
+    margin: 0 20px;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #b9cfe6;
+    background-color: rgb(255, 255, 255);
+}
+
+nav a.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.uganda {
+    border-top: midnightblue;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.uganda img.state-img {
+    max-width: 100px;
+    height: auto;
+}
+
+.resources {
+    margin-bottom: 20px;
+}
+
+.resources ul {
+    list-style: none;
+    /* padding: 0;*/
+    margin: 100px;
+    text-align: center;
+}
+
+.resources li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    width: fit-content;
+}
+
+.resources a {
+    text-decoration: none;
+    color: #337ab7;
+    transition: color 0.2s ease;
+}
+
+.resources a:hover {
+    color: #23527c;
+}
+
+.resources h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #6f0062;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    /* border-radius: 10px 10px 0 0; */
+}
+
+main {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
